@@ -76,11 +76,6 @@ document do
       proposal["abstract"] += "."
     end
 
-  #   proposal["description"].gsub!("https://twitter.com/rphmeier/status/1631467728555974658", "")
-  #   proposal["description"].gsub!("https://twitter.com/SkipProtocol/status/1642895191857299458", "")
-  #   proposal["description"].gsub!("https://twitter.com/project_shutter/status/1628430652990267393", "")
-  #   proposal["description"].gsub!("https://twitter.com/barnabemonnot/status/1628836608270016517", "")
-
     proposal["description"].strip!
     if !proposal["description"].empty? and proposal["description"][-1] != "." and proposal["description"][-1] != "!" and proposal["description"][-1] != "?"
       proposal["description"] += "."
@@ -95,19 +90,6 @@ document do
     proposal["abstract"].gsub!("https://www.allocin.it", "\r\n\r\n https://www.allocin.it")
 
     raw(parse_md(proposal["abstract"].to_s()))
-
-    # raw(parse_md(proposal["abstract"].to_s()[0,limit].split("<tags").first))
-    # if proposal["abstract"].length < limit && proposal["description"].length > 1
-    #   <##\par ##>
-    #   raw(parse_md(proposal["description"][0,limit-proposal["abstract"].length].split("<tags").first))
-    #   if proposal["abstract"].length + proposal["description"].length > limit
-    #     raw("(...)")
-    #   end
-    # else
-    #   if proposal["abstract"].length > limit
-    #     raw("(...)")
-    #   end
-    # end
 
     clearpage
   end
