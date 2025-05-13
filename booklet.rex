@@ -1,74 +1,113 @@
 require "json"
 require "time"
 
+require "kramdown"
+
 def load_sessions
-  data = "/home/user/Public/Parity/Protocol-Berg/protocol-booklet/sessions.json"
+  data = ENV['PWD'] + "/sessions.json"
   file = File.read data
   json = JSON.parse file
-  sort = json.sort_by { |j|
-    Time.parse(j["Start"]).to_i
-  }
+  if json['count'].to_i === json['results'].size
+    confirmed = json['results'].select { |r|
+      r['state'] == "confirmed"
+    }
+    sorted = confirmed.sort_by { |j|
+      Time.parse(j["slot"]["start"]).to_i
+    }
+  end
+  return sorted
 end
 
-MAX_PER_PAGE = 1_423
-<##\include{header.tex}##>
+def parse_md markdown
+  tex = Kramdown::Document.new(markdown).to_latex
+end
 
+<##\include{header.tex}##>
 document do
   <##\include{title.tex}##>
-
+  day = 11
   proposals = load_sessions
   proposals.each do |proposal|
 
-    if proposal["Proposal title"].include?("Opening Ceremony")
+    proposal_day = Time.parse(proposal["slot"]["start"]).localtime("+02:00").strftime("%d").to_i
+
+    if proposal_day > day
       <##\section {##>
-      md(proposal["Proposal title"])
+      raw("Day " + (proposal_day - 11).to_s)
       <##} ##>
-    elsif proposal["Proposal title"].include?("Post-Conference")
+      raw(Time.parse(proposal["slot"]["start"]).localtime("+02:00").strftime("%e. %B %Y"))
+      cleardoublepage
+      day = proposal_day
+    end
+
+    if proposal["title"].include?("Ceremony")
+      <##\subsection {##>
+      raw(proposal["title"])
+      <##} ##>
+    elsif proposal["title"].include?("Mixer")
+      next
+    elsif proposal["title"].include?("Lunch")
       next
     else
-      speakers = proposal["Speaker names"].join(", ")
-      <##\section {##>
+      names = []
+      speakers = proposal["speakers"].each { |s|
+        names.push s["name"]
+      }
+      <##\subsection {##>
       <##\textsc{##>
-      raw(speakers)
+      raw(names.join(", "))
       <##} ##>
-      md(" -- " + proposal["Proposal title"])
+      raw(" -- " + proposal["title"])
       <##} ##>
     end
 
-    start = Time.parse(proposal["Start"]).localtime("+02:00").strftime("%H:%M")
+    start = Time.parse(proposal["slot"]["start"]).localtime("+02:00").strftime("%d.%m.%y %H:%M")
 
     <##\noindent \textit {##>
-    md(proposal["Room"]["en"] + ", " + start + " CEST, " + proposal["Track"]["en"])
+    raw(start + " CEST")
+    <##\\ ##>
+    raw(proposal["slot"]["room"]["en"])
+    <##\\ ##>
+    raw(proposal["track"]["en"])
     <##}\\[1em] ##>
 
-    proposal["Abstract"].strip!
-    if !proposal["Abstract"].empty? and proposal["Abstract"][-1] != "." and proposal["Abstract"][-1] != "!" and proposal["Abstract"][-1] != "?"
-      proposal["Abstract"] += "."
+    proposal["abstract"].strip!
+    if !proposal["abstract"].empty? and proposal["abstract"][-1] != "." and proposal["abstract"][-1] != "!" and proposal["abstract"][-1] != "?"
+      proposal["abstract"] += "."
     end
 
-    proposal["Description"].gsub!("https://twitter.com/rphmeier/status/1631467728555974658", "")
-    proposal["Description"].gsub!("https://twitter.com/SkipProtocol/status/1642895191857299458", "")
-    proposal["Description"].gsub!("https://twitter.com/project_shutter/status/1628430652990267393", "")
-    proposal["Description"].gsub!("https://twitter.com/barnabemonnot/status/1628836608270016517", "")
-    proposal["Description"].strip!
-    if !proposal["Description"].empty? and proposal["Description"][-1] != "." and proposal["Description"][-1] != "!" and proposal["Description"][-1] != "?"
-      proposal["Description"] += "."
+  #   proposal["description"].gsub!("https://twitter.com/rphmeier/status/1631467728555974658", "")
+  #   proposal["description"].gsub!("https://twitter.com/SkipProtocol/status/1642895191857299458", "")
+  #   proposal["description"].gsub!("https://twitter.com/project_shutter/status/1628430652990267393", "")
+  #   proposal["description"].gsub!("https://twitter.com/barnabemonnot/status/1628836608270016517", "")
+
+    proposal["description"].strip!
+    if !proposal["description"].empty? and proposal["description"][-1] != "." and proposal["description"][-1] != "!" and proposal["description"][-1] != "?"
+      proposal["description"] += "."
     end
 
-    limit = MAX_PER_PAGE
-    if proposal["Proposal title"].length > 100
+    limit = 1_423
+    if proposal["title"].length > 101 || proposal["speakers"].size > 1
       limit = 1_337
     end
 
-    md(proposal["Abstract"].to_s()[0,limit].split("<tags").first)
-    if proposal["Abstract"].length < limit && proposal["Description"].length > 1
-      <##\par ##>
-      md(proposal["Description"][0,limit-proposal["Abstract"].length].split("<tags").first)
-    end
+    proposal["abstract"].gsub!("blob/main/ONBOARDING.md#onboarding", "")
+    proposal["abstract"].gsub!("https://www.allocin.it", "\r\n\r\n https://www.allocin.it")
 
-    if proposal["Abstract"].length + proposal["Description"].length > limit
-      raw("(...)")
-    end
+    raw(parse_md(proposal["abstract"].to_s()))
+
+    # raw(parse_md(proposal["abstract"].to_s()[0,limit].split("<tags").first))
+    # if proposal["abstract"].length < limit && proposal["description"].length > 1
+    #   <##\par ##>
+    #   raw(parse_md(proposal["description"][0,limit-proposal["abstract"].length].split("<tags").first))
+    #   if proposal["abstract"].length + proposal["description"].length > limit
+    #     raw("(...)")
+    #   end
+    # else
+    #   if proposal["abstract"].length > limit
+    #     raw("(...)")
+    #   end
+    # end
 
     clearpage
   end
