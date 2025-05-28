@@ -64,20 +64,18 @@ document do
     start = Time.parse(proposal["slot"]["start"]).localtime("+02:00").strftime("%d.%m.%y %H:%M")
 
     <##\noindent \textit {##>
-    raw(start + " CEST")
+    raw(start + " CEST" +  " -- " + proposal["slot"]["room"]["en"].to_s)
     <##\\ ##>
-    raw(proposal["slot"]["room"]["en"])
-    <##\\ ##>
-    raw(proposal["track"]["en"])
+    raw(proposal["track"]["en"].to_s + " -- " + proposal["submission_type"]["en"].to_s)
     <##}\\[1em] ##>
 
     proposal["abstract"].strip!
-    if !proposal["abstract"].empty? and proposal["abstract"][-1] != "." and proposal["abstract"][-1] != "!" and proposal["abstract"][-1] != "?"
+    if !proposal["abstract"].empty? and proposal["abstract"][-1] != "." and proposal["abstract"][-1] != "!" and proposal["abstract"][-1] != "?"and proposal["abstract"][-1] != "_"
       proposal["abstract"] += "."
     end
 
     proposal["description"].strip!
-    if !proposal["description"].empty? and proposal["description"][-1] != "." and proposal["description"][-1] != "!" and proposal["description"][-1] != "?"
+    if !proposal["description"].empty? and proposal["description"][-1] != "." and proposal["description"][-1] != "!" and proposal["description"][-1] != "?"and proposal["abstract"][-1] != "_"
       proposal["description"] += "."
     end
 

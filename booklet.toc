@@ -1,88 +1,100 @@
 \babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Day 1}{11}{section.1}%
-\contentsline {subsection}{\numberline {1.1}\textsc {François Garillot} -- Modern Multi-proposer consensus implementations}{13}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}\textsc {Georgy} -- Blockchain Ethics: Pure Reason or Pure Madness?}{14}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}\textsc {Diogo Ribeiro} -- Designing Decentralized Storage: Without Better UX, Decentralization Remains an Underutilized Alternative}{15}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}\textsc {Frederik Luehrs} -- Runtime Assertions: A New Paradigm for Customized Smart Contract Security}{16}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}\textsc {Alexander Herrmann} -- Synchronized Priority Auctions}{17}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}\textsc {Mf} -- the new Cypherpunk generation}{18}{subsection.1.6}%
-\contentsline {subsection}{\numberline {1.7}\textsc {Shawn Tabrizi} -- PolkaVM: A fast and secure RISC-V based virtual machine}{19}{subsection.1.7}%
-\contentsline {subsection}{\numberline {1.8}\textsc {viktor tron} -- Non-local redundancy: Erasure coding and dispersed replicas for robust retrieval in the Swarm peer-to-peer network}{20}{subsection.1.8}%
-\contentsline {subsection}{\numberline {1.9}\textsc {Thomas Pani} -- 25-Minute Solidity Fuzzer: Fuzzing Smarter, Not Harder}{21}{subsection.1.9}%
-\contentsline {subsection}{\numberline {1.10}\textsc {Lisa Akselrod} -- Anatomy of on-chain privacy}{22}{subsection.1.10}%
-\contentsline {subsection}{\numberline {1.11}\textsc {Andreas Erwig, Luis Bezzenberger, Marc Harvey-Hill} -- The Holy Trinity of Censorship Resistance in Ethereum}{23}{subsection.1.11}%
-\contentsline {subsection}{\numberline {1.12}\textsc {Konrad Urban} -- When Help Hurts: Why a Friendly Government is a Threat to Crypto}{24}{subsection.1.12}%
-\contentsline {subsection}{\numberline {1.13}\textsc {Axel Eckerbom} -- SVM Protocol Design}{25}{subsection.1.13}%
-\contentsline {subsection}{\numberline {1.14}\textsc {Esad Yusuf Atik} -- How to Build Rollups on Bitcoin}{26}{subsection.1.14}%
-\contentsline {subsection}{\numberline {1.15}\textsc {Robert Habermeier} -- Scaling Blockchain with SSDs is Smart (and Scaling with RAM is Stupid)}{27}{subsection.1.15}%
-\contentsline {subsection}{\numberline {1.16}\textsc {Teresa Carballo, Zimt} -- Not your vote, not your lawyer: Delegation and the Legal Challenges}{28}{subsection.1.16}%
-\contentsline {subsection}{\numberline {1.17}\textsc {erin} -- Building Testnet Infrastructure (from the ground up)}{29}{subsection.1.17}%
-\contentsline {subsection}{\numberline {1.18}\textsc {Fatemeh Fannizadeh} -- the economics of freedom}{30}{subsection.1.18}%
-\contentsline {subsection}{\numberline {1.19}\textsc {costanza gallo, Ann and Costanza} -- Goodbye Cypherpunk values? Adapting to the new world order}{31}{subsection.1.19}%
-\contentsline {subsection}{\numberline {1.20}\textsc {Christopher Goes} -- What would it really mean to build a world computer?}{32}{subsection.1.20}%
-\contentsline {subsection}{\numberline {1.21}\textsc {Sergei Tikhomirov} -- Waku Service Marketplace: Decentralized Infrastructure for dApps}{33}{subsection.1.21}%
-\contentsline {subsection}{\numberline {1.22}\textsc {Warren Winter} -- Mapping and Funding Our Dependencies in Open Knowledge}{34}{subsection.1.22}%
-\contentsline {subsection}{\numberline {1.23}\textsc {Tino Breddin} -- Fast-track workshop: Running a HOPR node and using the GnosisVPN PoC}{35}{subsection.1.23}%
-\contentsline {subsection}{\numberline {1.24}\textsc {Savio} -- Welcome to Noirland}{36}{subsection.1.24}%
-\contentsline {subsection}{\numberline {1.25}\textsc {basti} -- Golden Raspberry Awards Of Ethereum Scaling 2025}{37}{subsection.1.25}%
-\contentsline {subsection}{\numberline {1.26}\textsc {Tess Rinearson} -- Building for Core Devs: How OP Labs Accelerates Protocol Engineering}{38}{subsection.1.26}%
-\contentsline {subsection}{\numberline {1.27}\textsc {Ekaterina Riazantseva} -- Standardizing Ethereum metrics: PeerDAS and FOCIL retrospective}{39}{subsection.1.27}%
-\contentsline {subsection}{\numberline {1.28}\textsc {Wassim Alsindi} -- The Chain Mail Gaze}{40}{subsection.1.28}%
-\contentsline {subsection}{\numberline {1.29}\textsc {Bastian Köcher} -- CorePlay - An actor-like framework for blockchains}{41}{subsection.1.29}%
-\contentsline {subsection}{\numberline {1.30}\textsc {Norbert Vadas} -- Economic security behind ZK proof generation}{42}{subsection.1.30}%
-\contentsline {subsection}{\numberline {1.31}\textsc {DistributedDoge} -- Datadex Pattern: Collect and share protocol-level metrics}{43}{subsection.1.31}%
-\contentsline {subsection}{\numberline {1.32}\textsc {Victor Grishchenko} -- Can we do better than git's Merkle DAG?}{44}{subsection.1.32}%
-\contentsline {subsection}{\numberline {1.33}\textsc {Paul Dylan-Ennis} -- No friends but the hash function: Descent into the Social Layer}{45}{subsection.1.33}%
-\contentsline {subsection}{\numberline {1.34}\textsc {Samuel JJ Gosling} -- Quad-linear Voting (QLV)}{46}{subsection.1.34}%
-\contentsline {subsection}{\numberline {1.35}\textsc {José Pedro Sousa} -- Learn Noir in an Afternoon (Or Your Money Back)}{47}{subsection.1.35}%
-\contentsline {subsection}{\numberline {1.36}\textsc {Ellie Davidson} -- DA Layers vs. Confirmation Layers vs. Settlement Layers - Have we all just built the same thing?}{48}{subsection.1.36}%
-\contentsline {subsection}{\numberline {1.37}\textsc {Phil Ngo, nflaig} -- How client diversity saved Holesky: Lessons for the future}{49}{subsection.1.37}%
-\contentsline {subsection}{\numberline {1.38}\textsc {Jaya Klara Brekke} -- Liberating the self from calculation: entropy in privacy enhancing technologies}{50}{subsection.1.38}%
-\contentsline {subsection}{\numberline {1.39}\textsc {Masih Derkani} -- From Hours to Minutes: The Journey of Fast Finality on Filecoin}{51}{subsection.1.39}%
-\contentsline {subsection}{\numberline {1.40}\textsc {Marius, lightclient} -- Geth AMA}{52}{subsection.1.40}%
-\contentsline {subsection}{\numberline {1.41}\textsc {Trent} -- Long term capture risks in Ethereum}{53}{subsection.1.41}%
-\contentsline {subsection}{\numberline {1.42}\textsc {Nick Almond} -- F**k Off!: What if we forked crypto?}{54}{subsection.1.42}%
-\contentsline {subsection}{\numberline {1.43}\textsc {Nina Barbakadze} -- ZK: Accelerating DA Interop}{55}{subsection.1.43}%
-\contentsline {subsection}{\numberline {1.44}\textsc {Lukas} -- BitVM Engineering Tales}{56}{subsection.1.44}%
-\contentsline {section}{\numberline {2}Day 2}{57}{section.2}%
-\contentsline {subsection}{\numberline {2.1}\textsc {Boris Godlin} -- Integrating Blockchain Data into AI Agents}{59}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}\textsc {Madvi} -- Coordination as Intelligence: Envisioning Open Learning}{60}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}\textsc {Johannes Kühlewindt} -- Moderation is not a bad word: Towards Decentralised Content Moderation in P2P-Networks}{61}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}\textsc {Sergey Fedorov} -- New insights into distributed and concurrent programming}{62}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}\textsc {Pavel Bautista} -- Monitoring Ethereum’s Beacon Chain: A DEFCON Alert System for Safety and Liveness}{63}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}\textsc {Ori Shimony} -- DeCom - Building the Infrastructure for Decentralized Commerce}{64}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}\textsc {odysseas} -- Contract-based soft forks: Coining a term in search of hack prevention}{65}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}\textsc {Mikel Cortes} -- The eternal research of broadcasting messages, the limits of GossipSub}{66}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}\textsc {Vijay Krishnavanshi} -- Multi agentic architecture on top of p2p infra}{67}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}\textsc {Leo BG} -- At the Intersection of Data Availability Sampling and Sharded Mempools}{68}{subsection.2.10}%
-\contentsline {subsection}{\numberline {2.11}\textsc {Barnabé Monnot} -- What we want from our nodes}{69}{subsection.2.11}%
-\contentsline {subsection}{\numberline {2.12}\textsc {Lefteris Kokoris Kogias} -- Walrus: An Efficient Decentralized Storage Network}{70}{subsection.2.12}%
-\contentsline {subsection}{\numberline {2.13}\textsc {Alejandro Ranchal-Pedrosa} -- Rebased Rollups: Achieving Credibly Neutral Synchronous Composability with Low Latency and Cost}{71}{subsection.2.13}%
-\contentsline {subsection}{\numberline {2.14}\textsc {Tim Beiko} -- How Ethereum Governance (Actually) Works}{72}{subsection.2.14}%
-\contentsline {subsection}{\numberline {2.15}\textsc {Lukas Rajnoha, Michal Převrátil} -- The Art of Manually Guided Fuzzing}{73}{subsection.2.15}%
-\contentsline {subsection}{\numberline {2.16}\textsc {Aata Hokoridani} -- StorageBeat: An Evaluation Framework for Storage Services}{74}{subsection.2.16}%
-\contentsline {subsection}{\numberline {2.17}\textsc {Guillaume Ballet} -- Building zig program for zkvms: a case study with zeam}{75}{subsection.2.17}%
-\contentsline {subsection}{\numberline {2.18}\textsc {Lefteris Karapetsas} -- Privacy ist mir Wurst. I Got Nothing to Hide.}{76}{subsection.2.18}%
-\contentsline {subsection}{\numberline {2.19}\textsc {Andrew Macpherson} -- Reward and resource sharing mechanisms in decentralised storage}{77}{subsection.2.19}%
-\contentsline {subsection}{\numberline {2.20}\textsc {Aron Soos} -- How to Decentralize Any Front-End}{78}{subsection.2.20}%
-\contentsline {subsection}{\numberline {2.21}\textsc {Vasco Santos} -- Off-the-shelf Trustless HTTP Server for Content-Addressable Data}{79}{subsection.2.21}%
-\contentsline {subsection}{\numberline {2.22}\textsc {Hudson Jameson} -- Are You Vitalik or Are You My Mom? An In Depth Analysis of Wallet Security Set-ups}{80}{subsection.2.22}%
-\contentsline {subsection}{\numberline {2.23}\textsc {Raluca Diugan} -- Mechanisms for Unlocking Idle Blobspace}{81}{subsection.2.23}%
-\contentsline {subsection}{\numberline {2.24}\textsc {Jaya Klara Brekke} -- The Forest That Protects the Public Good: Nym for Libp2p privacy (part2)}{82}{subsection.2.24}%
-\contentsline {subsection}{\numberline {2.25}\textsc {Arik Galansky} -- MPC at internet scale}{83}{subsection.2.25}%
-\contentsline {subsection}{\numberline {2.26}\textsc {Michelle Lee} -- IPFS: A Decade in Browsers}{84}{subsection.2.26}%
-\contentsline {subsection}{\numberline {2.27}\textsc {Leo Alt} -- Compiler-based optimizations for zkVMs}{85}{subsection.2.27}%
-\contentsline {subsection}{\numberline {2.28}\textsc {Thomas Hsueh} -- Coordination-Avoidance: Rethinking Decentralized Networks Beyond Global Consensus}{86}{subsection.2.28}%
-\contentsline {subsection}{\numberline {2.29}\textsc {Daniel Norman} -- Don’t Trust, Verify: IPFS for (D)App Distribution on the Web in 2025}{87}{subsection.2.29}%
-\contentsline {subsection}{\numberline {2.30}\textsc {Pedro Gomes} -- Two flavors of Smart Sessions: Session Keys vs SubAccounts}{88}{subsection.2.30}%
-\contentsline {subsection}{\numberline {2.31}\textsc {Casey Carr} -- Swarming by the STIX: Exploring decentralized Traffic Light Protocol (TLP) and Semaphore for Spyware Honeytrapper indicator-sharing in highly-surveilled environments}{89}{subsection.2.31}%
-\contentsline {subsection}{\numberline {2.32}\textsc {Andrej Berlin, Beth McCarthy} -- Designing Protocols for a New Social Fabric}{90}{subsection.2.32}%
-\contentsline {subsection}{\numberline {2.33}\textsc {Misha Komarov} -- Bitcoin PIPEs: ZK-Proofs and Covenants on Bitcoin L1 without Softfork}{91}{subsection.2.33}%
-\contentsline {subsection}{\numberline {2.34}\textsc {Nadiem Sissouno, Alexander Mueller} -- Rethinking Competition Models in Solver-Based Protocols}{92}{subsection.2.34}%
-\contentsline {subsection}{\numberline {2.35}\textsc {Edmund Edgar} -- Bluesky, atproto, how to hack on it and why it matters}{93}{subsection.2.35}%
-\contentsline {subsection}{\numberline {2.36}\textsc {Dennis Trautwein} -- The surprising challenges of counting nodes}{94}{subsection.2.36}%
-\contentsline {subsection}{\numberline {2.37}\textsc {Manu Alzuru} -- Redesigning Governance: Trust Networks, Decentralization, and the Dichotomy of Extremes in Politics}{95}{subsection.2.37}%
-\contentsline {subsection}{\numberline {2.38}\textsc {Nitya Subramanian} -- Key Management Mechanisms and their UX Properties}{96}{subsection.2.38}%
-\contentsline {subsection}{\numberline {2.39}\textsc {Ira Nezhynska} -- How to turn strangers into early adopters when they don't understand your tech}{97}{subsection.2.39}%
-\contentsline {subsection}{\numberline {2.40}\textsc {Gavin Wood} -- Beyond the Ledger: JAM and the Future of Scalable Decentralized Computing}{98}{subsection.2.40}%
-\contentsline {subsection}{\numberline {2.41}\textsc {Jim Posen} -- A Functional VM for Verifiable Computing over Binary Fields}{99}{subsection.2.41}%
+\contentsline {section}{\numberline {1}Day 1}{13}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Opening Ceremony}{15}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}\textsc {Frederik Luehrs} -- Runtime Assertions: A New Paradigm for Customized Smart Contract Security}{16}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}\textsc {Christopher Goes} -- What would it really mean to build a world computer?}{17}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}\textsc {Georgy} -- Blockchain Ethics: Pure Reason or Pure Madness?}{18}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}\textsc {François Garillot} -- Modern Multi-proposer consensus implementations}{19}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}\textsc {Alexander Herrmann} -- Synchronized Priority Auctions}{20}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}\textsc {Shawn Tabrizi} -- PolkaVM: A fast and secure RISC-V based virtual machine}{21}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}\textsc {Mf} -- the new Cypherpunk generation}{22}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}\textsc {viktor tron} -- Non-local redundancy: Erasure coding and dispersed replicas for robust retrieval in the Swarm peer-to-peer network}{23}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}\textsc {Jaya Klara Brekke} -- The Forest That Protects the Public Good: Nym for Libp2p privacy (part2)}{24}{subsection.1.10}%
+\contentsline {subsection}{\numberline {1.11}\textsc {Andreas Erwig, Luis Bezzenberger, Marc Harvey-Hill} -- The Holy Trinity of Censorship Resistance in Ethereum}{25}{subsection.1.11}%
+\contentsline {subsection}{\numberline {1.12}\textsc {Michal Rostecki} -- IBRL - making Solana (Agave) faster}{26}{subsection.1.12}%
+\contentsline {subsection}{\numberline {1.13}\textsc {Lisa Akselrod} -- Anatomy of on-chain privacy}{27}{subsection.1.13}%
+\contentsline {subsection}{\numberline {1.14}\textsc {Axel Eckerbom} -- SVM Protocol Design}{28}{subsection.1.14}%
+\contentsline {subsection}{\numberline {1.15}\textsc {Lefteris Karapetsas} -- Privacy ist mir Wurst. I Got Nothing to Hide.}{29}{subsection.1.15}%
+\contentsline {subsection}{\numberline {1.16}\textsc {Jeff Strnad} -- Delegation and Participation in Decentralized Governance: An Epistemic View}{30}{subsection.1.16}%
+\contentsline {subsection}{\numberline {1.17}\textsc {Esad Yusuf Atik} -- How to Build Rollups on Bitcoin}{31}{subsection.1.17}%
+\contentsline {subsection}{\numberline {1.18}\textsc {Diogo Ribeiro} -- Designing Decentralized Storage: Without Better UX, Decentralization Remains an Underutilized Alternative}{32}{subsection.1.18}%
+\contentsline {subsection}{\numberline {1.19}\textsc {Aron Soos} -- How to Decentralize Any Front-End}{33}{subsection.1.19}%
+\contentsline {subsection}{\numberline {1.20}\textsc {erin} -- Building Testnet Infrastructure (from the ground up)}{34}{subsection.1.20}%
+\contentsline {subsection}{\numberline {1.21}\textsc {Fatemeh Fannizadeh} -- the economics of freedom}{35}{subsection.1.21}%
+\contentsline {subsection}{\numberline {1.22}\textsc {Thomas Hsueh} -- Coordination-Avoidance: Rethinking Decentralized Networks Beyond Global Consensus}{36}{subsection.1.22}%
+\contentsline {subsection}{\numberline {1.23}\textsc {Jarrad Hope} -- Cryptarchia Consensus & Blend Broadcasting for Private Blockchains}{37}{subsection.1.23}%
+\contentsline {subsection}{\numberline {1.24}\textsc {Sergei Tikhomirov} -- Waku Service Marketplace: Decentralized Infrastructure for dApps}{38}{subsection.1.24}%
+\contentsline {subsection}{\numberline {1.25}\textsc {Tino Breddin} -- Fast-track workshop: Running a HOPR node and using the GnosisVPN PoC}{39}{subsection.1.25}%
+\contentsline {subsection}{\numberline {1.26}\textsc {Warren Winter} -- Mapping and Funding Our Dependencies in Open Knowledge}{40}{subsection.1.26}%
+\contentsline {subsection}{\numberline {1.27}\textsc {Tess Rinearson} -- Building for Core Devs: How OP Labs Accelerates Protocol Engineering}{41}{subsection.1.27}%
+\contentsline {subsection}{\numberline {1.28}\textsc {Savio} -- Welcome to Noirland}{42}{subsection.1.28}%
+\contentsline {subsection}{\numberline {1.29}\textsc {basti} -- Golden Raspberry Awards Of Ethereum Scaling 2025}{43}{subsection.1.29}%
+\contentsline {subsection}{\numberline {1.30}\textsc {Ekaterina Riazantseva} -- Standardizing Ethereum metrics: PeerDAS and FOCIL retrospective}{44}{subsection.1.30}%
+\contentsline {subsection}{\numberline {1.31}\textsc {Wassim Alsindi} -- The Chain Mail Gaze}{45}{subsection.1.31}%
+\contentsline {subsection}{\numberline {1.32}\textsc {Bastian Köcher} -- CorePlay - An actor-like framework for blockchains}{46}{subsection.1.32}%
+\contentsline {subsection}{\numberline {1.33}\textsc {Norbert Vadas} -- Economic security behind ZK proof generation}{47}{subsection.1.33}%
+\contentsline {subsection}{\numberline {1.34}\textsc {DistributedDoge} -- Datadex Pattern: Collect and share protocol-level metrics}{48}{subsection.1.34}%
+\contentsline {subsection}{\numberline {1.35}\textsc {Paul Dylan-Ennis} -- No friends but the hash function: Descent into the Social Layer}{49}{subsection.1.35}%
+\contentsline {subsection}{\numberline {1.36}\textsc {Samuel JJ Gosling} -- Quad-linear Voting (QLV)}{50}{subsection.1.36}%
+\contentsline {subsection}{\numberline {1.37}\textsc {Victor Grishchenko} -- Can we do better than git's Merkle DAG?}{51}{subsection.1.37}%
+\contentsline {subsection}{\numberline {1.38}\textsc {José Pedro Sousa} -- Learn Noir in an Afternoon (Or Your Money Back)}{52}{subsection.1.38}%
+\contentsline {subsection}{\numberline {1.39}\textsc {Ellie Davidson} -- DA Layers vs. Confirmation Layers vs. Settlement Layers - Have we all just built the same thing?}{53}{subsection.1.39}%
+\contentsline {subsection}{\numberline {1.40}\textsc {Phil Ngo, nflaig} -- How client diversity saved Holesky: Lessons for the future}{54}{subsection.1.40}%
+\contentsline {subsection}{\numberline {1.41}\textsc {Jaya Klara Brekke} -- Liberating the self from calculation: entropy in privacy enhancing technologies}{55}{subsection.1.41}%
+\contentsline {subsection}{\numberline {1.42}\textsc {Konrad Urban} -- When Help Hurts: Why a Friendly Government is a Threat to Crypto}{56}{subsection.1.42}%
+\contentsline {subsection}{\numberline {1.43}\textsc {Masih Derkani} -- From Hours to Minutes: The Journey of Fast Finality on Filecoin}{57}{subsection.1.43}%
+\contentsline {subsection}{\numberline {1.44}\textsc {Marius, lightclient} -- Geth AMA}{58}{subsection.1.44}%
+\contentsline {subsection}{\numberline {1.45}\textsc {Nina Barbakadze} -- ZK: Accelerating DA Interop}{59}{subsection.1.45}%
+\contentsline {subsection}{\numberline {1.46}\textsc {Nikita Polianskii} -- Starfish: push-based dissemination can be efficient on uncertified DAG}{60}{subsection.1.46}%
+\contentsline {subsection}{\numberline {1.47}\textsc {costanza gallo, Ann and Costanza} -- Goodbye Cypherpunk values? Adapting to the new world order}{61}{subsection.1.47}%
+\contentsline {subsection}{\numberline {1.48}\textsc {Nick Almond} -- F**k Off!: What if we forked crypto?}{62}{subsection.1.48}%
+\contentsline {subsection}{\numberline {1.49}\textsc {zygis} -- testing in production: gathering actually useful data}{63}{subsection.1.49}%
+\contentsline {subsection}{\numberline {1.50}\textsc {odysseas} -- Contract-based soft forks: Coining a term in search of hack prevention}{64}{subsection.1.50}%
+\contentsline {section}{\numberline {2}Day 2}{65}{section.2}%
+\contentsline {subsection}{\numberline {2.1}\textsc {Johannes Kühlewindt} -- Moderation is not a bad word: Towards Decentralised Content Moderation in P2P-Networks}{67}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}\textsc {Boris Godlin} -- Integrating Blockchain Data into AI Agents}{68}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}\textsc {Matthew Stephenson} -- Veiled Oracles: A fair, liveness-preserving method for enshrined information feeds}{69}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}\textsc {Madvi} -- Coordination as Intelligence: Envisioning Open Learning}{70}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}\textsc {Casey Carr} -- Swarming by the STIX: Exploring decentralized Traffic Light Protocol (TLP) and Semaphore for Spyware Honeytrapper indicator-sharing in highly-surveilled environments}{71}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}\textsc {Barnabé Monnot} -- What we want from our nodes}{72}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}\textsc {Ori Shimony} -- DeCom - Building the Infrastructure for Decentralized Commerce}{73}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}\textsc {Mikel Cortes} -- The eternal research of broadcasting messages, the limits of GossipSub}{74}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}\textsc {Thomas Pani} -- 25-Minute Solidity Fuzzer: Fuzzing Smarter, Not Harder}{75}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}\textsc {Lefteris Kokoris Kogias} -- Walrus: An Efficient Decentralized Storage Network}{76}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}\textsc {Vitalik Buterin} -- From Blocks to Biomes: Modular Sovereignty in a Post-Consensus World}{77}{subsection.2.11}%
+\contentsline {subsection}{\numberline {2.12}\textsc {Leo BG} -- At the Intersection of Data Availability Sampling and Sharded Mempools}{78}{subsection.2.12}%
+\contentsline {subsection}{\numberline {2.13}\textsc {Alejandro Ranchal-Pedrosa} -- Rebased Rollups: Achieving Credibly Neutral Synchronous Composability with Low Latency and Cost}{79}{subsection.2.13}%
+\contentsline {subsection}{\numberline {2.14}\textsc {Aata Hokoridani} -- StorageBeat: An Evaluation Framework for Storage Services}{80}{subsection.2.14}%
+\contentsline {subsection}{\numberline {2.15}\textsc {Tim Beiko} -- How Ethereum Governance (Actually) Works}{81}{subsection.2.15}%
+\contentsline {subsection}{\numberline {2.16}\textsc {Guillaume Ballet} -- Building zig program for zkvms: a case study with zeam}{82}{subsection.2.16}%
+\contentsline {subsection}{\numberline {2.17}\textsc {Michelle Lee} -- IPFS: A Decade in Browsers}{83}{subsection.2.17}%
+\contentsline {subsection}{\numberline {2.18}\textsc {Andrew Macpherson} -- Reward and resource sharing mechanisms in decentralised storage}{84}{subsection.2.18}%
+\contentsline {subsection}{\numberline {2.19}\textsc {Vijay Krishnavanshi} -- Multi agentic architecture on top of p2p infra}{85}{subsection.2.19}%
+\contentsline {subsection}{\numberline {2.20}\textsc {Hudson Jameson} -- Are You Vitalik or Are You My Mom? An In Depth Analysis of Wallet Security Set-ups}{86}{subsection.2.20}%
+\contentsline {subsection}{\numberline {2.21}\textsc {Vasco Santos} -- Off-the-shelf Trustless HTTP Server for Content-Addressable Data}{87}{subsection.2.21}%
+\contentsline {subsection}{\numberline {2.22}\textsc {Raluca Diugan} -- Mechanisms for Unlocking Idle Blobspace}{88}{subsection.2.22}%
+\contentsline {subsection}{\numberline {2.23}\textsc {Andrej Berlin, Beth McCarthy} -- Designing Protocols for a New Social Fabric}{89}{subsection.2.23}%
+\contentsline {subsection}{\numberline {2.24}\textsc {Arik Galansky} -- MPC at internet scale}{90}{subsection.2.24}%
+\contentsline {subsection}{\numberline {2.25}\textsc {Robert Habermeier} -- Scaling Blockchain with SSDs is Smart (and Scaling with RAM is Stupid)}{91}{subsection.2.25}%
+\contentsline {subsection}{\numberline {2.26}\textsc {Leo Alt} -- Compiler-based optimizations for zkVMs}{92}{subsection.2.26}%
+\contentsline {subsection}{\numberline {2.27}\textsc {Daniel Norman} -- Don’t Trust, Verify: IPFS for (D)App Distribution on the Web in 2025}{93}{subsection.2.27}%
+\contentsline {subsection}{\numberline {2.28}\textsc {Nitya Subramanian} -- Key Management Mechanisms and their UX Properties}{94}{subsection.2.28}%
+\contentsline {subsection}{\numberline {2.29}\textsc {Josh Bowen} -- Comparing transaction submission pipelines of different blockchains (Ethereum, Solana, Monad, Astria)}{95}{subsection.2.29}%
+\contentsline {subsection}{\numberline {2.30}\textsc {Teresa Carballo, Zimt} -- Not your vote, not your lawyer: Delegation and the Legal Challenges}{96}{subsection.2.30}%
+\contentsline {subsection}{\numberline {2.31}\textsc {Pavel Bautista} -- Monitoring Ethereum’s Beacon Chain: A DEFCON Alert System for Safety and Liveness}{97}{subsection.2.31}%
+\contentsline {subsection}{\numberline {2.32}\textsc {Nadiem Sissouno, Alexander Mueller} -- Rethinking Competition Models in Solver-Based Protocols}{98}{subsection.2.32}%
+\contentsline {subsection}{\numberline {2.33}\textsc {Trent} -- Long term capture risks in Ethereum}{99}{subsection.2.33}%
+\contentsline {subsection}{\numberline {2.34}\textsc {Pedro Gomes} -- Two flavors of Smart Sessions: Session Keys vs SubAccounts}{100}{subsection.2.34}%
+\contentsline {subsection}{\numberline {2.35}\textsc {Lukas Rajnoha, Michal Převrátil} -- The Art of Manually Guided Fuzzing}{101}{subsection.2.35}%
+\contentsline {subsection}{\numberline {2.36}\textsc {István András Seres} -- Forking the RANDAO: Manipulating Ethereum’s Distributed Randomness Beacon}{102}{subsection.2.36}%
+\contentsline {subsection}{\numberline {2.37}\textsc {Joel Thorstensson} -- Making dapps censorship resistant}{103}{subsection.2.37}%
+\contentsline {subsection}{\numberline {2.38}\textsc {Edmund Edgar} -- Bluesky, atproto, how to hack on it and why it matters}{104}{subsection.2.38}%
+\contentsline {subsection}{\numberline {2.39}\textsc {Manu Alzuru} -- Redesigning Governance: Trust Networks, Decentralization, and the Dichotomy of Extremes in Politics}{105}{subsection.2.39}%
+\contentsline {subsection}{\numberline {2.40}\textsc {Misha Komarov} -- Bitcoin PIPEs: ZK-Proofs and Covenants on Bitcoin L1 without Softfork}{106}{subsection.2.40}%
+\contentsline {subsection}{\numberline {2.41}\textsc {Sergey Fedorov} -- New insights into distributed and concurrent programming}{107}{subsection.2.41}%
+\contentsline {subsection}{\numberline {2.42}\textsc {Ira Nezhynska} -- How to turn strangers into early adopters when they don't understand your tech}{108}{subsection.2.42}%
+\contentsline {subsection}{\numberline {2.43}\textsc {Dennis Trautwein} -- The surprising challenges of counting nodes}{109}{subsection.2.43}%
+\contentsline {subsection}{\numberline {2.44}\textsc {Jim Posen} -- A Functional VM for Verifiable Computing over Binary Fields}{110}{subsection.2.44}%
+\contentsline {subsection}{\numberline {2.45}\textsc {Gavin Wood} -- Beyond the Ledger: JAM and the Future of Scalable Decentralized Computing}{111}{subsection.2.45}%
+\contentsline {subsection}{\numberline {2.46}\textsc {Gajinder} -- Workings of Native Rollups and EXECUTE precompile}{112}{subsection.2.46}%
+\contentsline {subsection}{\numberline {2.47}Closing Ceremony}{113}{subsection.2.47}%
