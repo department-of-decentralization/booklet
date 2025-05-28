@@ -23,8 +23,10 @@ def parse_md markdown
 end
 
 <##\include{header.tex}##>
+
 document do
   <##\include{title.tex}##>
+
   day = 11
   proposals = load_sessions
   proposals.each do |proposal|
@@ -35,7 +37,18 @@ document do
       <##\section {##>
       raw("Day " + (proposal_day - 11).to_s)
       <##} ##>
-      raw(Time.parse(proposal["slot"]["start"]).localtime("+02:00").strftime("%e. %B %Y"))
+      if proposal_day == 12
+      raw("Day one unfolds with a series of sessions delving into the technical and philosophical underpinnings of decentralized systems. Topics span from the intricacies of distributed virtual machines to the challenges of decentralized infrastructure management. Workshops and talks encourage participants to engage critically with the material, questioning prevailing paradigms and envisioning alternative frameworks for digital interaction. The absence of product pitches and marketing ensures that discussions remain focused on substantive issues, aligning with the event's commitment to authenticity and depth.")
+      <##\par ##>
+      raw("As the day progresses, attendees are invited to partake in dialogues that challenge conventional thought and inspire revolutionary ideas. The convergence of diverse perspectives fosters a dynamic atmosphere where innovation thrives. Thus, Protocol Berg v2 serves not merely as a conference but as a catalyst for transformative action, galvanizing a community dedicated to reimagining the digital landscape through the lens of decentralization and autonomy.")
+      else
+      raw("On June 13, 2025, Protocol Berg v2 continues its exploration of decentralized systems at Berlin's Filmtheater Colosseum. This second day delves deeper into the technical and philosophical dimensions of decentralized infrastructure, fostering discussions that challenge conventional paradigms and inspire revolutionary ideas.")
+      <##\par ##>
+      raw("The day's sessions encompass a range of topics, including advanced consensus mechanisms, innovative networking protocols, and the societal implications of decentralized governance. Workshops and talks encourage participants to critically engage with the material, envisioning alternative frameworks for digital interaction that prioritize autonomy and resilience. The event's commitment to authenticity ensures that discussions remain focused on substantive issues, free from commercial influence.")
+      <##\par ##>
+      raw("As the conference concludes, attendees are invited to partake in dialogues that transcend traditional boundaries, fostering a dynamic atmosphere where innovation thrives. Thus, Protocol Berg v2 serves not merely as a conference but as a catalyst for transformative action, galvanizing a community dedicated to reimagining the digital landscape through the lens of decentralization and autonomy.")
+      <##\par ##>
+      end
       cleardoublepage
       day = proposal_day
     end
@@ -92,6 +105,8 @@ document do
     clearpage
   end
 
+  cleardoublepage
+  cleardoublepage
   cleardoublepage
   <##\include{epilog.tex}##>
 end
