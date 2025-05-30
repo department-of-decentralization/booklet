@@ -51,27 +51,27 @@
 \contentsline {subsection}{\numberline {1.49}\textsc {zygis} -- testing in production: gathering actually useful data}{63}{subsection.1.49}%
 \contentsline {subsection}{\numberline {1.50}\textsc {odysseas} -- Contract-based soft forks: Coining a term in search of hack prevention}{64}{subsection.1.50}%
 \contentsline {section}{\numberline {2}Day 2}{65}{section.2}%
-\contentsline {subsection}{\numberline {2.1}\textsc {Johannes Kühlewindt} -- Moderation is not a bad word: Towards Decentralised Content Moderation in P2P-Networks}{67}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}\textsc {Boris Godlin} -- Integrating Blockchain Data into AI Agents}{68}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.1}\textsc {Boris Godlin} -- Integrating Blockchain Data into AI Agents}{67}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}\textsc {Johannes Kühlewindt} -- Moderation is not a bad word: Towards Decentralised Content Moderation in P2P-Networks}{68}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}\textsc {Matthew Stephenson} -- Veiled Oracles: A fair, liveness-preserving method for enshrined information feeds}{69}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}\textsc {Madvi} -- Coordination as Intelligence: Envisioning Open Learning}{70}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}\textsc {Casey Carr} -- Swarming by the STIX: Exploring decentralized Traffic Light Protocol (TLP) and Semaphore for Spyware Honeytrapper indicator-sharing in highly-surveilled environments}{71}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}\textsc {Barnabé Monnot} -- What we want from our nodes}{72}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.6}\textsc {Mikel Cortes} -- The eternal research of broadcasting messages, the limits of GossipSub}{72}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}\textsc {Ori Shimony} -- DeCom - Building the Infrastructure for Decentralized Commerce}{73}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}\textsc {Mikel Cortes} -- The eternal research of broadcasting messages, the limits of GossipSub}{74}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.8}\textsc {Barnabé Monnot} -- What we want from our nodes}{74}{subsection.2.8}%
 \contentsline {subsection}{\numberline {2.9}\textsc {Thomas Pani} -- 25-Minute Solidity Fuzzer: Fuzzing Smarter, Not Harder}{75}{subsection.2.9}%
 \contentsline {subsection}{\numberline {2.10}\textsc {Lefteris Kokoris Kogias} -- Walrus: An Efficient Decentralized Storage Network}{76}{subsection.2.10}%
-\contentsline {subsection}{\numberline {2.11}\textsc {Vitalik Buterin} -- From Blocks to Biomes: Modular Sovereignty in a Post-Consensus World}{77}{subsection.2.11}%
-\contentsline {subsection}{\numberline {2.12}\textsc {Leo BG} -- At the Intersection of Data Availability Sampling and Sharded Mempools}{78}{subsection.2.12}%
+\contentsline {subsection}{\numberline {2.11}\textsc {Leo BG} -- At the Intersection of Data Availability Sampling and Sharded Mempools}{77}{subsection.2.11}%
+\contentsline {subsection}{\numberline {2.12}\textsc {Tim Beiko} -- How Ethereum Governance (Actually) Works}{78}{subsection.2.12}%
 \contentsline {subsection}{\numberline {2.13}\textsc {Alejandro Ranchal-Pedrosa} -- Rebased Rollups: Achieving Credibly Neutral Synchronous Composability with Low Latency and Cost}{79}{subsection.2.13}%
-\contentsline {subsection}{\numberline {2.14}\textsc {Aata Hokoridani} -- StorageBeat: An Evaluation Framework for Storage Services}{80}{subsection.2.14}%
-\contentsline {subsection}{\numberline {2.15}\textsc {Tim Beiko} -- How Ethereum Governance (Actually) Works}{81}{subsection.2.15}%
-\contentsline {subsection}{\numberline {2.16}\textsc {Guillaume Ballet} -- Building zig program for zkvms: a case study with zeam}{82}{subsection.2.16}%
-\contentsline {subsection}{\numberline {2.17}\textsc {Michelle Lee} -- IPFS: A Decade in Browsers}{83}{subsection.2.17}%
-\contentsline {subsection}{\numberline {2.18}\textsc {Andrew Macpherson} -- Reward and resource sharing mechanisms in decentralised storage}{84}{subsection.2.18}%
-\contentsline {subsection}{\numberline {2.19}\textsc {Vijay Krishnavanshi} -- Multi agentic architecture on top of p2p infra}{85}{subsection.2.19}%
-\contentsline {subsection}{\numberline {2.20}\textsc {Hudson Jameson} -- Are You Vitalik or Are You My Mom? An In Depth Analysis of Wallet Security Set-ups}{86}{subsection.2.20}%
-\contentsline {subsection}{\numberline {2.21}\textsc {Vasco Santos} -- Off-the-shelf Trustless HTTP Server for Content-Addressable Data}{87}{subsection.2.21}%
+\contentsline {subsection}{\numberline {2.14}\textsc {Vitalik Buterin} -- Long-term L1 Proposal: Replacing the EVM with RISC-V}{80}{subsection.2.14}%
+\contentsline {subsection}{\numberline {2.15}\textsc {Aata Hokoridani} -- StorageBeat: An Evaluation Framework for Storage Services}{81}{subsection.2.15}%
+\contentsline {subsection}{\numberline {2.16}\textsc {Andrew Macpherson} -- Reward and resource sharing mechanisms in decentralised storage}{82}{subsection.2.16}%
+\contentsline {subsection}{\numberline {2.17}\textsc {Guillaume Ballet} -- Building zig program for zkvms: a case study with zeam}{83}{subsection.2.17}%
+\contentsline {subsection}{\numberline {2.18}\textsc {Vijay Krishnavanshi} -- Multi agentic architecture on top of p2p infra}{84}{subsection.2.18}%
+\contentsline {subsection}{\numberline {2.19}\textsc {Hudson Jameson} -- Are You Vitalik or Are You My Mom? An In Depth Analysis of Wallet Security Set-ups}{85}{subsection.2.19}%
+\contentsline {subsection}{\numberline {2.20}\textsc {Vasco Santos} -- Off-the-shelf Trustless HTTP Server for Content-Addressable Data}{86}{subsection.2.20}%
+\contentsline {subsection}{\numberline {2.21}\textsc {Michelle Lee} -- IPFS: A Decade in Browsers}{87}{subsection.2.21}%
 \contentsline {subsection}{\numberline {2.22}\textsc {Raluca Diugan} -- Mechanisms for Unlocking Idle Blobspace}{88}{subsection.2.22}%
 \contentsline {subsection}{\numberline {2.23}\textsc {Andrej Berlin, Beth McCarthy} -- Designing Protocols for a New Social Fabric}{89}{subsection.2.23}%
 \contentsline {subsection}{\numberline {2.24}\textsc {Arik Galansky} -- MPC at internet scale}{90}{subsection.2.24}%

@@ -83,12 +83,12 @@ document do
     <##}\\[1em] ##>
 
     proposal["abstract"].strip!
-    if !proposal["abstract"].empty? and proposal["abstract"][-1] != "." and proposal["abstract"][-1] != "!" and proposal["abstract"][-1] != "?"and proposal["abstract"][-1] != "_"
+    if !proposal["abstract"].empty? and proposal["abstract"][-1] != "." and proposal["abstract"][-1] != "!" and proposal["abstract"][-1] != "?" and proposal["abstract"][-1] != "_" and proposal["abstract"][-1] != "/" and proposal["abstract"][-3..-1] != "pdf"
       proposal["abstract"] += "."
     end
 
     proposal["description"].strip!
-    if !proposal["description"].empty? and proposal["description"][-1] != "." and proposal["description"][-1] != "!" and proposal["description"][-1] != "?"and proposal["abstract"][-1] != "_"
+    if !proposal["description"].empty? and proposal["description"][-1] != "." and proposal["description"][-1] != "!" and proposal["description"][-1] != "?" and proposal["abstract"][-1] != "_" and proposal["abstract"][-1] != "/" and proposal["abstract"][-3..-1] != "pdf"
       proposal["description"] += "."
     end
 
